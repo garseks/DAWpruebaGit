@@ -21,4 +21,10 @@ public class Operaciones {
 		public void setOperadorB(int operadorB) {
 			this.operadorB = operadorB;
 		}
+		public int suma() {
+			return operadorA + operadorB;
+		}
+		public int resta() {
+			return operadorA - operadorB;
+		}
 }
