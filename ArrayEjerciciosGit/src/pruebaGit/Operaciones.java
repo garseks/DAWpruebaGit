@@ -27,4 +27,7 @@ public class Operaciones {
 		public int resta() {
 			return operadorA - operadorB;
 		}
+		public int division() {
+			return operadorA / operadorB;
+		}
 }
